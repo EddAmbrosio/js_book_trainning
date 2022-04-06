@@ -71,7 +71,8 @@ console.log(val)*/
         sum += x
     }
     return sum
-}*/
+}
+
 
 function factorial(n) {// here we're going from number n until number 1
     let product = 1
@@ -91,3 +92,11 @@ function factorial1(n) { //here we are going to number 2 until number n
 }
 
 console.log(factorial1(5))
+*/
+
+//different ways to write the same variable
+
+let café = 1 // we declared the variable café
+caf\u00e9 = 2 // we typed the same variable but with the Unicode \u00e9 that means "é"
+console.log(caf\u{E9}) // we printing the variable using other way to write the same variable café
+console.log("\u{1F600}")
